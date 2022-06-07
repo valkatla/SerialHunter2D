@@ -1,0 +1,1684 @@
+fileFormatVersion: 2
+guid: e4861c490ebe04bb699c142bd18b7cc8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2034438863119622010
+    second: Clue-Bigote
+  - first:
+      213: 570030193608544690
+    second: Clue-Books
+  - first:
+      213: 2150994163751313383
+    second: Clue-Yeso
+  - first:
+      213: -1489245769184784257
+    second: Asset-Cemento
+  - first:
+      213: 1897360048851481161
+    second: Forest-1
+  - first:
+      213: 6657447109062356534
+    second: Forest-2
+  - first:
+      213: -5847495472545516741
+    second: Forest-3
+  - first:
+      213: -5330717802698809453
+    second: Forest-4
+  - first:
+      213: 8822462559109147076
+    second: Forest-5
+  - first:
+      213: -1785754665571172933
+    second: Forest-6
+  - first:
+      213: -3885604994555467580
+    second: Fantasma-Attack
+  - first:
+      213: 6770124524952710059
+    second: Shaly-Walk
+  - first:
+      213: -7233346211030843200
+    second: Shaly-Walk-2
+  - first:
+      213: 6726665880576943495
+    second: Shaly-Jump
+  - first:
+      213: -2659676690314214364
+    second: Shaly-Jump-1
+  - first:
+      213: -4140227793634821881
+    second: Shaly-Jump-2
+  - first:
+      213: 5407011867456181568
+    second: Asset-Ladrillos
+  - first:
+      213: -2736814006736803873
+    second: Kokoro-vacio
+  - first:
+      213: -8182432433279975391
+    second: Kokoro-medio
+  - first:
+      213: 154121539935624303
+    second: Kokoro-Lleno
+  - first:
+      213: 7975602195407399816
+    second: KokoroVida1
+  - first:
+      213: 3113596961203459456
+    second: KokoroVida2
+  - first:
+      213: 7530837120295991900
+    second: Forest-Tree1
+  - first:
+      213: 1607084449627408376
+    second: Forest-Tree2
+  - first:
+      213: -8077604478435463841
+    second: Forest-7
+  - first:
+      213: 3013746273245799599
+    second: Forest-8
+  - first:
+      213: -6385752189406240523
+    second: Forest-10
+  - first:
+      213: -3987832200668555981
+    second: Forest-13
+  - first:
+      213: -722450481969269592
+    second: Ted-Attack-1
+  - first:
+      213: 1650441868923471008
+    second: Ted-Attack-2
+  - first:
+      213: 583868337383147935
+    second: Ted-Attack-3
+  - first:
+      213: 8516553149797676504
+    second: Ted-Attack-4
+  - first:
+      213: 4168201502879945610
+    second: Ted-Attack-5
+  - first:
+      213: -2612229957779669499
+    second: Forest-9
+  - first:
+      213: -7314797318937988854
+    second: Forest-11
+  - first:
+      213: 5961923661594911514
+    second: Forest-12
+  - first:
+      213: -8804539620812955293
+    second: Mar-1
+  - first:
+      213: 4211413399099147391
+    second: Ted-Bigote
+  - first:
+      213: -8570809925833865492
+    second: Ted-Bigote-1
+  - first:
+      213: -8284022758998161162
+    second: Ted-Yeso-Libros
+  - first:
+      213: 6796331003845718134
+    second: Ted-Palanca
+  - first:
+      213: 878432218570204644
+    second: Ted-Palanca-1
+  - first:
+      213: -5479524743520461582
+    second: Vocho1
+  - first:
+      213: 3169380321071119611
+    second: Btn-Pause
+  - first:
+      213: -5941512090701165145
+    second: Fantasma2
+  - first:
+      213: 5119049652138581057
+    second: Vocho-2
+  - first:
+      213: 8238559311062735580
+    second: Btn-Play
+  - first:
+      213: -5835251160176338251
+    second: Ted-Yeso-1
+  - first:
+      213: -595766632007900510
+    second: Ted-Yeso-2
+  - first:
+      213: -6316859524633802973
+    second: Fantasma1
+  - first:
+      213: 5474385635384569034
+    second: Btn-Back
+  - first:
+      213: 1632030434957093050
+    second: Ted-Cae-3
+  - first:
+      213: 8298867617358497141
+    second: Btn-Menu
+  - first:
+      213: -1495346214572870596
+    second: Ted-Cae-1
+  - first:
+      213: -6125174466174859061
+    second: Ted-Cae-2
+  - first:
+      213: 3462695902036739188
+    second: Ted-Cae-4
+  - first:
+      213: -3767224313032490973
+    second: Btn-Start
+  - first:
+      213: 756144476240318040
+    second: Palanca
+  - first:
+      213: -7148359447608744636
+    second: Btn-Exit
+  - first:
+      213: -1155885276073774338
+    second: Ted-Cae-5
+  - first:
+      213: 3979565853525030782
+    second: Mar2
+  - first:
+      213: 7003704948049688976
+    second: Sprote-Atlas1_0
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Clue-Bigote
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 7068
+        width: 1067
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680618602a834c3e0800000000000000
+      internalID: -2034438863119622010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue-Books
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 6776
+        width: 904
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1d841e07729e700800000000000000
+      internalID: 570030193608544690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clue-Yeso
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 6787
+        width: 1073
+        height: 949
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efd554abcdd9dd10800000000000000
+      internalID: 2150994163751313383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Cemento
+      rect:
+        serializedVersion: 2
+        x: 4069
+        y: 6815
+        width: 813
+        height: 809
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70dc700dd2255be0800000000000000
+      internalID: -1489245769184784257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-1
+      rect:
+        serializedVersion: 2
+        x: 5867
+        y: 6866
+        width: 421
+        height: 606
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9427fca69e6c45a10800000000000000
+      internalID: 1897360048851481161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-2
+      rect:
+        serializedVersion: 2
+        x: 6423
+        y: 7017
+        width: 387
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63eec9e7fd0046c50800000000000000
+      internalID: 6657447109062356534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-3
+      rect:
+        serializedVersion: 2
+        x: 6866
+        y: 7017
+        width: 461
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33383d59d589dea0800000000000000
+      internalID: -5847495472545516741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-4
+      rect:
+        serializedVersion: 2
+        x: 7457
+        y: 7017
+        width: 162
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f594cd66c7506b0800000000000000
+      internalID: -5330717802698809453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-5
+      rect:
+        serializedVersion: 2
+        x: 7883
+        y: 7017
+        width: 494
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c962ef34feaf6a70800000000000000
+      internalID: 8822462559109147076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-6
+      rect:
+        serializedVersion: 2
+        x: 8681
+        y: 6736
+        width: 842
+        height: 736
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd32aec799b737e0800000000000000
+      internalID: -1785754665571172933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasma-Attack
+      rect:
+        serializedVersion: 2
+        x: 9900
+        y: 6854
+        width: 713
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8a90228de831ac0800000000000000
+      internalID: -3885604994555467580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shaly-Walk
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 5661
+        width: 477
+        height: 682
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab67f2c26054fd50800000000000000
+      internalID: 6770124524952710059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shaly-Walk-2
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 5661
+        width: 483
+        height: 713
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0c61ae1fdfd9b90800000000000000
+      internalID: -7233346211030843200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shaly-Jump
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 5664
+        width: 489
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785678e9afae95d50800000000000000
+      internalID: 6726665880576943495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shaly-Jump-1
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 5664
+        width: 494
+        height: 674
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4244f68442ee61bd0800000000000000
+      internalID: -2659676690314214364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shaly-Jump-2
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 5815
+        width: 432
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709723fe1c4fa86c0800000000000000
+      internalID: -4140227793634821881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset-Ladrillos
+      rect:
+        serializedVersion: 2
+        x: 4755
+        y: 5866
+        width: 808
+        height: 814
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0451c0855a0990b40800000000000000
+      internalID: 5407011867456181568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kokoro-vacio
+      rect:
+        serializedVersion: 2
+        x: 6041
+        y: 6326
+        width: 359
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7a3204922e40ad0800000000000000
+      internalID: -2736814006736803873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kokoro-medio
+      rect:
+        serializedVersion: 2
+        x: 6569
+        y: 6310
+        width: 354
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12046b7ed09227e80800000000000000
+      internalID: -8182432433279975391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kokoro-Lleno
+      rect:
+        serializedVersion: 2
+        x: 7097
+        y: 6298
+        width: 381
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c591859bc832200800000000000000
+      internalID: 154121539935624303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KokoroVida1
+      rect:
+        serializedVersion: 2
+        x: 7743
+        y: 6287
+        width: 410
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b651fa0f70fae60800000000000000
+      internalID: 7975602195407399816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KokoroVida2
+      rect:
+        serializedVersion: 2
+        x: 8243
+        y: 6304
+        width: 381
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085944e80f7b53b20800000000000000
+      internalID: 3113596961203459456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Tree1
+      rect:
+        serializedVersion: 2
+        x: 9416
+        y: 5543
+        width: 804
+        height: 1047
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a7198f578e28860800000000000000
+      internalID: 7530837120295991900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Tree2
+      rect:
+        serializedVersion: 2
+        x: 10276
+        y: 5543
+        width: 809
+        height: 1047
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f78810dac28d4610800000000000000
+      internalID: 1607084449627408376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-7
+      rect:
+        serializedVersion: 2
+        x: 5968
+        y: 5304
+        width: 802
+        height: 798
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5defba168596ef80800000000000000
+      internalID: -8077604478435463841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-8
+      rect:
+        serializedVersion: 2
+        x: 6911
+        y: 5928
+        width: 483
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa429fb944af2d920800000000000000
+      internalID: 3013746273245799599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-10
+      rect:
+        serializedVersion: 2
+        x: 7535
+        y: 5776
+        width: 803
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0a4c687304167a0800000000000000
+      internalID: -6385752189406240523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-13
+      rect:
+        serializedVersion: 2
+        x: 8478
+        y: 5928
+        width: 326
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335594fedbf58a8c0800000000000000
+      internalID: -3987832200668555981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Attack-1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 4496
+        width: 556
+        height: 892
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a479664d1759f5f0800000000000000
+      internalID: -722450481969269592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Attack-2
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 4496
+        width: 590
+        height: 892
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a48d97a22c87e610800000000000000
+      internalID: 1650441868923471008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Attack-3
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 4496
+        width: 556
+        height: 892
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99025dc8215a1800800000000000000
+      internalID: 583868337383147935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Attack-4
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 4496
+        width: 1062
+        height: 960
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5bc6497ffd03670800000000000000
+      internalID: 8516553149797676504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Attack-5
+      rect:
+        serializedVersion: 2
+        x: 4867
+        y: 4563
+        width: 623
+        height: 893
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83986bce2d68d930800000000000000
+      internalID: 4168201502879945610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-9
+      rect:
+        serializedVersion: 2
+        x: 6911
+        y: 5304
+        width: 483
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50eb8ee81be7fbbd0800000000000000
+      internalID: -2612229957779669499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-11
+      rect:
+        serializedVersion: 2
+        x: 7535
+        y: 5304
+        width: 803
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01b8b8089e9c7a90800000000000000
+      internalID: -7314797318937988854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-12
+      rect:
+        serializedVersion: 2
+        x: 8478
+        y: 5304
+        width: 326
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a136c5b8bf10db250800000000000000
+      internalID: 5961923661594911514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mar-1
+      rect:
+        serializedVersion: 2
+        x: 8555
+        y: 132
+        width: 2325
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36167920dddffc580800000000000000
+      internalID: -8804539620812955293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Bigote
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 3103
+        width: 545
+        height: 910
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7400a76c22f17a30800000000000000
+      internalID: 4211413399099147391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Bigote-1
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 3103
+        width: 545
+        height: 943
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6c74558cd5e0980800000000000000
+      internalID: -8570809925833865492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Yeso-Libros
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 3176
+        width: 758
+        height: 859
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8c9aaf03d390d80800000000000000
+      internalID: -8284022758998161162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Palanca
+      rect:
+        serializedVersion: 2
+        x: 3384
+        y: 3205
+        width: 528
+        height: 852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670b23c1a0b615e50800000000000000
+      internalID: 6796331003845718134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Palanca-1
+      rect:
+        serializedVersion: 2
+        x: 4412
+        y: 3205
+        width: 528
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5a22bd271d03c00800000000000000
+      internalID: 878432218570204644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vocho1
+      rect:
+        serializedVersion: 2
+        x: 6031
+        y: 3403
+        width: 3572
+        height: 1528
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcdf7c0741d4f3b0800000000000000
+      internalID: -5479524743520461582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Btn-Pause
+      rect:
+        serializedVersion: 2
+        x: 9866
+        y: 4357
+        width: 1561
+        height: 528
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcbe832c96ebfb20800000000000000
+      internalID: 3169380321071119611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasma2
+      rect:
+        serializedVersion: 2
+        x: 4131
+        y: 2120
+        width: 1045
+        height: 887
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad8115ab328b8da0800000000000000
+      internalID: -5941512090701165145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vocho-2
+      rect:
+        serializedVersion: 2
+        x: 6069
+        y: 1632
+        width: 3572
+        height: 1543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c9e4769848a0740800000000000000
+      internalID: 5119049652138581057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Btn-Play
+      rect:
+        serializedVersion: 2
+        x: 9933
+        y: 3773
+        width: 1354
+        height: 532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda91ec2b0e355270800000000000000
+      internalID: 8238559311062735580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Yeso-1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1930
+        width: 544
+        height: 874
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bad08e7cf5050fa0800000000000000
+      internalID: -5835251160176338251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Yeso-2
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1930
+        width: 544
+        height: 906
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2632a97696bb7f0800000000000000
+      internalID: -595766632007900510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasma1
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 2042
+        width: 926
+        height: 892
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327c8220bb10658a0800000000000000
+      internalID: -6316859524633802973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Btn-Back
+      rect:
+        serializedVersion: 2
+        x: 9933
+        y: 3183
+        width: 1421
+        height: 533
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc29981bbce8fb40800000000000000
+      internalID: 5474385635384569034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Cae-3
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 999
+        width: 1006
+        height: 840
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab86e32a80326a610800000000000000
+      internalID: 1632030434957093050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Btn-Menu
+      rect:
+        serializedVersion: 2
+        x: 9967
+        y: 2519
+        width: 1353
+        height: 600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57545a2f0208b2370800000000000000
+      internalID: 8298867617358497141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Cae-1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 688
+        width: 584
+        height: 938
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34b8206a867f3be0800000000000000
+      internalID: -1495346214572870596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Cae-2
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 722
+        width: 584
+        height: 937
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8ca5c86420ffaa0800000000000000
+      internalID: -6125174466174859061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Cae-4
+      rect:
+        serializedVersion: 2
+        x: 4353
+        y: 1008
+        width: 941
+        height: 688
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474c916a397fd0030800000000000000
+      internalID: 3462695902036739188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Btn-Start
+      rect:
+        serializedVersion: 2
+        x: 9866
+        y: 2015
+        width: 1561
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320cb78627128bbc0800000000000000
+      internalID: -3767224313032490973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palanca
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 996
+        width: 436
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e8d29156d5e7a00800000000000000
+      internalID: 756144476240318040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Btn-Exit
+      rect:
+        serializedVersion: 2
+        x: 10106
+        y: 1499
+        width: 1079
+        height: 465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445297eb4fcebcc90800000000000000
+      internalID: -7148359447608744636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ted-Cae-5
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 188
+        width: 938
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2b48e277875ffe0800000000000000
+      internalID: -1155885276073774338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mar2
+      rect:
+        serializedVersion: 2
+        x: 5424
+        y: 60
+        width: 2325
+        height: 724
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7732a32f024a3730800000000000000
+      internalID: 3979565853525030782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprote-Atlas1_0
+      rect:
+        serializedVersion: 2
+        x: 9715
+        y: 1076
+        width: 98
+        height: 2423
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099b5240b88223160800000000000000
+      internalID: 7003704948049688976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ted-Attack-5: 4168201502879945610
+      Clue-Books: 570030193608544690
+      Forest-7: -8077604478435463841
+      Ted-Yeso-1: -5835251160176338251
+      Shaly-Jump: 6726665880576943495
+      Vocho1: -5479524743520461582
+      Ted-Yeso-2: -595766632007900510
+      Forest-12: 5961923661594911514
+      Forest-Tree2: 1607084449627408376
+      Btn-Menu: 8298867617358497141
+      Kokoro-vacio: -2736814006736803873
+      Forest-1: 1897360048851481161
+      Ted-Palanca-1: 878432218570204644
+      Forest-5: 8822462559109147076
+      Vocho-2: 5119049652138581057
+      Fantasma2: -5941512090701165145
+      Fantasma1: -6316859524633802973
+      Btn-Exit: -7148359447608744636
+      Btn-Start: -3767224313032490973
+      Forest-4: -5330717802698809453
+      Fantasma-Attack: -3885604994555467580
+      Asset-Ladrillos: 5407011867456181568
+      Forest-10: -6385752189406240523
+      Ted-Attack-1: -722450481969269592
+      Shaly-Jump-1: -2659676690314214364
+      KokoroVida2: 3113596961203459456
+      KokoroVida1: 7975602195407399816
+      Ted-Cae-3: 1632030434957093050
+      Mar2: 3979565853525030782
+      Kokoro-Lleno: 154121539935624303
+      Sprote-Atlas1_0: 7003704948049688976
+      Ted-Palanca: 6796331003845718134
+      Mar-1: -8804539620812955293
+      Palanca: 756144476240318040
+      Ted-Cae-4: 3462695902036739188
+      Ted-Bigote: 4211413399099147391
+      Shaly-Walk: 6770124524952710059
+      Btn-Pause: 3169380321071119611
+      Forest-6: -1785754665571172933
+      Clue-Yeso: 2150994163751313383
+      Forest-3: -5847495472545516741
+      Shaly-Walk-2: -7233346211030843200
+      Ted-Attack-2: 1650441868923471008
+      Ted-Cae-2: -6125174466174859061
+      Ted-Bigote-1: -8570809925833865492
+      Forest-8: 3013746273245799599
+      Forest-2: 6657447109062356534
+      Ted-Cae-5: -1155885276073774338
+      Btn-Back: 5474385635384569034
+      Shaly-Jump-2: -4140227793634821881
+      Forest-9: -2612229957779669499
+      Kokoro-medio: -8182432433279975391
+      Ted-Yeso-Libros: -8284022758998161162
+      Ted-Attack-4: 8516553149797676504
+      Asset-Cemento: -1489245769184784257
+      Btn-Play: 8238559311062735580
+      Clue-Bigote: -2034438863119622010
+      Ted-Cae-1: -1495346214572870596
+      Forest-Tree1: 7530837120295991900
+      Forest-13: -3987832200668555981
+      Forest-11: -7314797318937988854
+      Ted-Attack-3: 583868337383147935
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
