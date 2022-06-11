@@ -4,26 +4,22 @@ using UnityEngine;
 
 public class ActivarPoder : MonoBehaviour
 {
-    public GameObject poder;
-    public float fireRate = 0.5f;
-    float nextFire = 0.0f;
 
-    void Start()
-    {
-        
-    }
+    [SerializeField] private Transform controladorDisparo;
+    [SerializeField] private GameObject ataque;
+
+
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && Time.time > nextFire)
+        if (Input.GetButtonDown("Ataque"))
         {
-            nextFire = Time.time + fireRate;
-            fire();
-        }    
+            Disparar();
+        }
+    }
+    private void Disparar()
+    {
+        Instantiate(ataque, controladorDisparo.position, controladorDisparo.rotation);
     }
 
-    void fire()
-    {
-        Instantiate(poder, transform.position, Quaternion.identity);
-    }
 }

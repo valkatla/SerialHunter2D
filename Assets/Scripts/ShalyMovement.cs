@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShalyMovement : MonoBehaviour
 {
-    public GameObject Ataque;
+    //public GameObject Ataque;
 
     private Rigidbody2D rb2D;
 

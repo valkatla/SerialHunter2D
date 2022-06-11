@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4070105866923017836}
   - component: {fileID: 4070105866923017837}
   - component: {fileID: -1263816005848579600}
+  - component: {fileID: 3520623144034058533}
   m_Layer: 0
   m_Name: Fantasma1
   m_TagString: Untagged
@@ -167,5 +168,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf60d5e225f4144896f2590cd75877e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velX: 4
+  velocidad: 10
   dano: 200
+--- !u!114 &3520623144034058533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4070105866923017830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e5b2863860262a45abaaadf30f1dd05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoDeVida: 1.5
