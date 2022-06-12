@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyDano : MonoBehaviour
 {
     [SerializeField] private float tiempoEntreDano;
+    [SerializeField] private int Dano;
     private float tiempoSiguienteDano;
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -13,7 +14,7 @@ public class EnemyDano : MonoBehaviour
             tiempoSiguienteDano -= Time.deltaTime;
             if (tiempoSiguienteDano <= 0)
             {
-                collision.GetComponent<Combate>().TomarDano(5);
+                collision.GetComponent<Combate>().TomarDano(Dano);
                 tiempoSiguienteDano = tiempoEntreDano;
             }
         }

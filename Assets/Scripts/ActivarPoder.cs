@@ -7,19 +7,31 @@ public class ActivarPoder : MonoBehaviour
 
     [SerializeField] private Transform controladorDisparo;
     [SerializeField] private GameObject ataque;
-
+    [SerializeField] private float tiempoDeCarga;
+    [SerializeField] private float maximoCarga;
 
 
     void Update()
     {
-        if (Input.GetButtonDown("Ataque"))
+        if (Input.GetButton("Ataque"))
         {
-            Disparar();
+            if(tiempoDeCarga <= maximoCarga)
+            {
+                tiempoDeCarga += Time.deltaTime;
+            }
+        }
+        if (Input.GetButtonUp("Ataque"))
+        {
+            Disparar((int)tiempoDeCarga);
+            tiempoDeCarga = 0;
         }
     }
-    private void Disparar()
+    private void Disparar(int tiempoCarga)
     {
-        Instantiate(ataque, controladorDisparo.position, controladorDisparo.rotation);
+        Vector3 crecer = new Vector3(tiempoCarga, tiempoCarga, 0);
+        GameObject fantasma = Instantiate(ataque, controladorDisparo.position, controladorDisparo.rotation);
+        fantasma.GetComponent<FantasmaScript>().AumentarDano(tiempoCarga);
+        fantasma.transform.localScale += crecer;
     }
 
 }

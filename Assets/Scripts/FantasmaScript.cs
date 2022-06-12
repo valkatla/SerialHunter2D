@@ -11,11 +11,16 @@ public class FantasmaScript : MonoBehaviour
     {
         transform.Translate(Vector2.right * velocidad * Time.deltaTime);
     }
+    public void AumentarDano(int danoExtra)
+    {
+        dano += danoExtra * dano;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Ted"))
         {
             collision.GetComponent<Ted>().TomarDano(dano);
+            Debug.Log("Daño: " + dano);
             Destroy(gameObject);
         }
     }
