@@ -154,7 +154,7 @@ TextureImporter:
         width: 635
         height: 3087
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -175,7 +175,7 @@ TextureImporter:
         width: 1453
         height: 3087
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -196,7 +196,7 @@ TextureImporter:
         width: 1071
         height: 3090
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,27 +204,6 @@ TextureImporter:
       bones: []
       spriteID: b513d4470435a4f80800000000000000
       internalID: -8121587441715039909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-Atlas3_3
-      rect:
-        serializedVersion: 2
-        x: 4267
-        y: 4393
-        width: 62
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cba2dc1d50c43dd0800000000000000
-      internalID: -2507167586390463546
       vertices: []
       indices: 
       edges: []
@@ -238,7 +217,7 @@ TextureImporter:
         width: 1265
         height: 3090
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -259,7 +238,7 @@ TextureImporter:
         width: 4831
         height: 2724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -280,7 +259,7 @@ TextureImporter:
         width: 1070
         height: 3090
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -301,7 +280,7 @@ TextureImporter:
         width: 1025
         height: 3090
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -322,7 +301,7 @@ TextureImporter:
         width: 5352
         height: 2615
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -330,27 +309,6 @@ TextureImporter:
       bones: []
       spriteID: 7f537aea9aee815e0800000000000000
       internalID: -1938537227035920905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-Atlas3_9
-      rect:
-        serializedVersion: 2
-        x: 1400
-        y: 924
-        width: 61
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1292682a3f72b9a0800000000000000
-      internalID: -6218768247682854369
       vertices: []
       indices: 
       edges: []
@@ -370,6 +328,7 @@ TextureImporter:
       Torre-1: -7179201228695642994
       Torre-5: 4892411856203918396
       Sprite-Atlas3_3: -2507167586390463546
+      Sprite-Atlas3_0: -1574111188
       Torre-6: -4785387817432454489
       Torre-4: 9018365474230788232
       Torre-2: -5801115176643407066
