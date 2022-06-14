@@ -6,14 +6,17 @@ public class Combate : MonoBehaviour
 {
     [SerializeField] int vida;
     [SerializeField] int maximoVida;
+    [SerializeField] BarraDeVida barraDeVida;
 
     private void Start()
     {
         vida = maximoVida;
+        barraDeVida.InicializarBarraDeVida(vida);
     }
     public  void TomarDano(int dano)
     {
         vida -= dano;
+        barraDeVida.CambiarVidaActual(vida);
         if (vida <= 0)
         {
             Destroy(gameObject);
