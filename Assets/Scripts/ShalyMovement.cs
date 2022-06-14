@@ -28,6 +28,9 @@ public class ShalyMovement : MonoBehaviour
     private float escalaGravedad;
     private bool botonSaltoArriba = true;
 
+    [Header("Rebote")]
+    [SerializeField] private float velocidadRebote;
+
     private bool salto = false;
     void Start()
     {
@@ -90,6 +93,11 @@ public class ShalyMovement : MonoBehaviour
         {
             rb2D.gravityScale = escalaGravedad;
         }
+    }
+
+    public void Rebote()
+    {
+        rb2D.velocity = new Vector2(rb2D.velocity.x, velocidadRebote);
     }
     private void Girar()
     {

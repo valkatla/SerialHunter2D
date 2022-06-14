@@ -19,7 +19,7 @@ public class FantasmaScript : MonoBehaviour
     {
         if (collision.CompareTag("Ted"))
         {
-            collision.GetComponent<Ted>().TomarDano(dano);
+            collision.GetComponent<TedCombate>().TomarDano(dano);
             Debug.Log("Daño: " + dano);
             Destroy(gameObject);
         }

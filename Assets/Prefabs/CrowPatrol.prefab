@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 1061628651166395774}
   - component: {fileID: 1925817838753583958}
   - component: {fileID: 1925817838753583953}
+  - component: {fileID: -8733730554583282042}
   m_Layer: 0
   m_Name: CrowPatrol
   m_TagString: Untagged
@@ -156,7 +157,6 @@ MonoBehaviour:
   controladorsuelo: {fileID: 1925817838849896861}
   distancia: 0.87
   moviendoDerecha: 0
-  tiempoEntreDano: 0
 --- !u!50 &1925817838753583958
 Rigidbody2D:
   serializedVersion: 4
@@ -204,3 +204,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 2.3656492}
   m_EdgeRadius: 0
+--- !u!114 &-8733730554583282042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6243389450033132109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58317ec00a781ec4eb707e16eed354d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

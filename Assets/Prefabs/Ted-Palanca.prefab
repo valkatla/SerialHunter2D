@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2997523870604523198}
   - component: {fileID: 2997523870604523199}
   - component: {fileID: 2997523870604523196}
-  - component: {fileID: 8636385295431825865}
   - component: {fileID: 5542349740394430752}
   - component: {fileID: -800065912790619343}
+  - component: {fileID: -7920346032784144674}
   m_Layer: 0
   m_Name: Ted-Palanca
   m_TagString: Ted
@@ -108,21 +108,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8636385295431825865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2997523870604523197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad7f9a9f016f7fd4585205314cd7ffab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vida: 200
-  efectoMuerte: {fileID: 7526477120307689965, guid: 4e60f882817cf9c41830c15cb7db7a41, type: 3}
-  tiempoMuerte: 0
 --- !u!70 &5542349740394430752
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -159,4 +144,21 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &-7920346032784144674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997523870604523197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ff2419c53dea8b489b1a00524041828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb2D: {fileID: 0}
+  jugador: {fileID: 0}
+  vida: 0
+  barraDeVida: {fileID: 0}
+  tiempoMuerte: 0

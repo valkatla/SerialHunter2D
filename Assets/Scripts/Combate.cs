@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Combate : MonoBehaviour
 {
-    [SerializeField] int vida;
-    [SerializeField] int maximoVida;
-    [SerializeField] BarraDeVida barraDeVida;
+    [SerializeField] private float vida;
+    [SerializeField] private float maximoVida;
+    [SerializeField] private BarraDeVida barraDeVida;
 
     private void Start()
     {
         vida = maximoVida;
         barraDeVida.InicializarBarraDeVida(vida);
+        
     }
     public  void TomarDano(int dano)
     {
@@ -32,5 +33,6 @@ public class Combate : MonoBehaviour
         {
             vida += curacion;
         }
+        barraDeVida.CambiarVidaActual(vida);
     }
 }

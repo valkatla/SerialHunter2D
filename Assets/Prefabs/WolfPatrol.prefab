@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3252865304657844832}
   - component: {fileID: 3751234834440908309}
   - component: {fileID: 8970336399254972289}
+  - component: {fileID: -8644358876716626388}
   m_Layer: 0
   m_Name: WolfPatrol
   m_TagString: Untagged
@@ -136,7 +137,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.47238255, y: -0.6763444}
@@ -183,6 +184,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b626397c7ed5404680b4d0e712cb4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoEntreDano: 1
+  Dano: 10
+--- !u!114 &-8644358876716626388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327539403628514769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58317ec00a781ec4eb707e16eed354d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5954190306286550821

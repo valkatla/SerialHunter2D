@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 10
-  dano: 200
+  dano: 20
 --- !u!114 &3520623144034058533
 MonoBehaviour:
   m_ObjectHideFlags: 0
