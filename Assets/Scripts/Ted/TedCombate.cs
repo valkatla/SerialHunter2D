@@ -43,10 +43,8 @@ public class TedCombate : MonoBehaviour
     }
     private void Muerte()
     {
-            //Destroy(gameObject);
             animator.SetTrigger("Muerte");
-       
-        Destroy(gameObject, tiempoMuerte);
+            Destroy(gameObject, tiempoMuerte);
     }
     public void MirarJugador()
     {

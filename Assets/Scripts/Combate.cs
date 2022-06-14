@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Combate : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class Combate : MonoBehaviour
         if (vida <= 0)
         {
             Destroy(gameObject);
+            Reiniciar();
         }
     }
     public void Curar(int curacion)
@@ -34,5 +36,10 @@ public class Combate : MonoBehaviour
             vida += curacion;
         }
         barraDeVida.CambiarVidaActual(vida);
+    }
+    public void Reiniciar()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
