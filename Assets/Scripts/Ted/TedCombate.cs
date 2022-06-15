@@ -5,6 +5,7 @@ using UnityEngine;
 public class TedCombate : MonoBehaviour
 {
     private Animator animator;
+    private AIAudioScript soundManager;
     public Rigidbody2D rb2D;
     public Transform jugador;
     private bool mirandoDerecha = true;
@@ -25,6 +26,7 @@ public class TedCombate : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
         barraDeVida.InicializarBarraDeVida(vida);
         jugador = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        
     }
 
     private void Update()
@@ -35,6 +37,8 @@ public class TedCombate : MonoBehaviour
     public void TomarDano(float dano)
     {
         vida -= dano;
+        soundManager = FindObjectOfType<AIAudioScript>();
+        soundManager.SeleccionAudio(1, 1f);
         barraDeVida.CambiarVidaActual(vida);
         if (vida <= 0)
         {
@@ -44,7 +48,9 @@ public class TedCombate : MonoBehaviour
     private void Muerte()
     {
             animator.SetTrigger("Muerte");
-            Destroy(gameObject, tiempoMuerte);
+        soundManager = FindObjectOfType<AIAudioScript>();
+        soundManager.SeleccionAudio(2, 1f);
+        Destroy(gameObject, tiempoMuerte);
     }
     public void MirarJugador()
     {
@@ -63,6 +69,8 @@ public class TedCombate : MonoBehaviour
             if (collision.CompareTag("Player"))
             {
                 collision.GetComponent<Combate>().TomarDano(danoAtaque);
+                soundManager = FindObjectOfType<AIAudioScript>();
+                soundManager.SeleccionAudio(0, 1f);
             }
         }
     }

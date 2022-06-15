@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Secuestro : MonoBehaviour
 {
     private Animator animator;
+    private AIAudioScript soundManager;
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -16,6 +17,8 @@ public class Secuestro : MonoBehaviour
         {
             animator.SetTrigger("Secuestro");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            soundManager = FindObjectOfType<AIAudioScript>();
+            soundManager.SeleccionAudio(0, 0.5f);
         }
     }
 }

@@ -172,6 +172,7 @@ MonoBehaviour:
   enSuelo: 0
   multiplicadorCancelarSalto: 0.337
   multiplicadorGravedad: 2
+  velocidadRebote: 0
 --- !u!114 &7971852896700853373
 MonoBehaviour:
   m_ObjectHideFlags: 0

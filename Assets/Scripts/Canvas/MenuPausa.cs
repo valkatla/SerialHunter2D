@@ -39,6 +39,12 @@ public class MenuPausa : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    public void Menu()
+    {
+        juegoPausado = false;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -1);
+    }
     public void Cerrar()
     {
         Debug.Log("Cerrando juego");

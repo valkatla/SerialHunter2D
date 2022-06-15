@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4c45f1e6bc387b4ab7b6e79de1c6933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 27.83
+  velocidad: 18.5
   controladorsuelo: {fileID: 1363917270744170310}
   distancia: 2.33
   moviendoDerecha: 0
