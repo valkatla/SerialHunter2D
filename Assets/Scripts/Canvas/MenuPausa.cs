@@ -43,11 +43,25 @@ public class MenuPausa : MonoBehaviour
     {
         juegoPausado = false;
         Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -1);
+        SceneManager.LoadScene("MenuInicial");
     }
     public void Cerrar()
     {
         Debug.Log("Cerrando juego");
         Application.Quit();
+    }
+    public void Si()
+    {
+        //juegoPausado = false;
+        Time.timeScale = 1f;
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("SampleScene");
+    }
+    public void No()
+    {
+        //juegoPausado = false;
+        Time.timeScale = 1f;
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene("MenuInicial");
     }
 }

@@ -157,6 +157,7 @@ MonoBehaviour:
   controladorsuelo: {fileID: 1925817838849896861}
   distancia: 0.87
   moviendoDerecha: 0
+  dano: 0
 --- !u!50 &1925817838753583958
 Rigidbody2D:
   serializedVersion: 4
@@ -188,7 +189,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.8171754}
@@ -216,3 +217,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58317ec00a781ec4eb707e16eed354d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  efecto: {fileID: 0}

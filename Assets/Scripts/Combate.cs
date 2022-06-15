@@ -8,12 +8,17 @@ public class Combate : MonoBehaviour
     [SerializeField] private float vida;
     [SerializeField] private float maximoVida;
     [SerializeField] private BarraDeVida barraDeVida;
+    [SerializeField] private float tiempoPerdidaControl;
+    private Animator animator;
+    private ShalyMovement movimientoJugador;
+    [SerializeField] private GameObject gameOver;
 
     private void Start()
     {
         vida = maximoVida;
         barraDeVida.InicializarBarraDeVida(vida);
-        
+        movimientoJugador = GetComponent<ShalyMovement>();
+        animator = GetComponent<Animator>();
     }
     public  void TomarDano(int dano)
     {
@@ -22,9 +27,11 @@ public class Combate : MonoBehaviour
         if (vida <= 0)
         {
             Destroy(gameObject);
-            Reiniciar();
+            //Reiniciar();
+            gameOver.SetActive(true);
         }
     }
+
     public void Curar(int curacion)
     {
         if ((vida + curacion) > maximoVida)

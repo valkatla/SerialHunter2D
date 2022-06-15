@@ -8,6 +8,7 @@ public class PatrullaDano : MonoBehaviour
    [SerializeField] private Transform controladorsuelo;
    [SerializeField] private float distancia;
    [SerializeField] private bool moviendoDerecha;
+    [SerializeField] private int dano;
     //[SerializeField] private float tiempoEntreDano;
     private float tiempoSiguienteDano;
     private Rigidbody2D rb;
@@ -39,7 +40,7 @@ public class PatrullaDano : MonoBehaviour
             tiempoSiguienteDano -= Time.deltaTime;
             if (tiempoSiguienteDano <= 0)
             {
-                collision.collider.GetComponent<Combate>().TomarDano(5);
+                collision.collider.GetComponent<Combate>().TomarDano(dano);
                 //tiempoSiguienteDano = tiempoEntreDano;
             }
         }

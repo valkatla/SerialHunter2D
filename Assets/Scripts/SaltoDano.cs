@@ -16,8 +16,8 @@ public class SaltoDano : MonoBehaviour
         {
                 if(collision.GetContact(0).normal.y<= -0.9)
                 {
-                    animator.SetTrigger("Golpe");
-                    collision.gameObject.GetComponent<ShalyMovement>().Rebote();
+                animator.SetTrigger("Golpe");
+                collision.gameObject.GetComponent<ShalyMovement>().Rebote();
                 }
         }
     }

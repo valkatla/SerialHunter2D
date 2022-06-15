@@ -47,7 +47,7 @@ public class TedCombate : MonoBehaviour
     }
     private void Muerte()
     {
-            animator.SetTrigger("Muerte");
+        animator.SetTrigger("Muerte");
         soundManager = FindObjectOfType<AIAudioScript>();
         soundManager.SeleccionAudio(2, 1f);
         Destroy(gameObject, tiempoMuerte);
@@ -62,7 +62,7 @@ public class TedCombate : MonoBehaviour
     }
     public void Ataque()
     {
-        Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorAtaque.position, radioAtaque);
+        Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorAtaque.position, radioAtaque); 
 
         foreach(Collider2D collision in objetos)
         {

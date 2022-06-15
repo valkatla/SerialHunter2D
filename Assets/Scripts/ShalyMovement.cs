@@ -7,6 +7,7 @@ public class ShalyMovement : MonoBehaviour
     //public GameObject Ataque;
 
     private Rigidbody2D rb2D;
+    public bool sePuedeMover = true;
 
     [Header("Movimiento")]
     private float movHorizontal = 0f;
@@ -21,6 +22,7 @@ public class ShalyMovement : MonoBehaviour
     [SerializeField] private Transform controladorSuelo;
     [SerializeField] private Vector3 dimensionesCaja;
     [SerializeField] private bool enSuelo;
+
 
     [Header("SaltoRegulable")]
     [Range(0, 1)][SerializeField] private float multiplicadorCancelarSalto;
@@ -56,7 +58,10 @@ public class ShalyMovement : MonoBehaviour
     {
         enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimensionesCaja, 0f, queEsSuelo);
         //mover
-        Mover(movHorizontal * Time.fixedDeltaTime, salto);
+        if (sePuedeMover)
+        {
+            Mover(movHorizontal * Time.fixedDeltaTime, salto);
+        }
 
         salto = false;
     }
@@ -99,6 +104,7 @@ public class ShalyMovement : MonoBehaviour
     {
         rb2D.velocity = new Vector2(rb2D.velocity.x, velocidadRebote);
     }
+
     private void Girar()
     {
         mirandoDerecha = !mirandoDerecha;
