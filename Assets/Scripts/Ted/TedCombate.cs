@@ -20,6 +20,9 @@ public class TedCombate : MonoBehaviour
     [SerializeField] private float radioAtaque;
     [SerializeField] private int danoAtaque;
 
+    [Header("Ted pierde")]
+    [SerializeField] private GameObject gameOver;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -51,6 +54,7 @@ public class TedCombate : MonoBehaviour
         soundManager = FindObjectOfType<AIAudioScript>();
         soundManager.SeleccionAudio(2, 1f);
         Destroy(gameObject, tiempoMuerte);
+        gameOver.SetActive(true);
     }
     public void MirarJugador()
     {

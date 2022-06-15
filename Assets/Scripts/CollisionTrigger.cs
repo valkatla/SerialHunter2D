@@ -4,7 +4,7 @@ using UnityEngine;
 public class CollisionTrigger : MonoBehaviour
 {
     [SerializeField] private GameObject ayura;
-    private bool estaEnRango=false;
+    //private bool estaEnRango=false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -12,7 +12,7 @@ public class CollisionTrigger : MonoBehaviour
         {
             Debug.Log("Jugador Entró");
             ayura.SetActive(true);
-            estaEnRango = true;
+            //estaEnRango = true;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -21,7 +21,7 @@ public class CollisionTrigger : MonoBehaviour
         {
             Debug.Log("Jugador Salió");
             ayura.SetActive(false);
-            estaEnRango = false;
+            //estaEnRango = false;
         }
     }
 }

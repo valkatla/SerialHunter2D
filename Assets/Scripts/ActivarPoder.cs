@@ -9,29 +9,37 @@ public class ActivarPoder : MonoBehaviour
     [SerializeField] private GameObject ataque;
     [SerializeField] private float tiempoDeCarga;
     [SerializeField] private float maximoCarga;
-
+    [SerializeField] private float tiempoEntreDisparos;
+    private float tiempoSiguienteDisparo;
 
     void Update()
     {
-        if (Input.GetButton("Ataque"))
+        //if (Input.GetButtonDown("Ataque"))
+        //{
+        //    if(tiempoDeCarga <= maximoCarga)
+        //    {
+        //        tiempoDeCarga += Time.deltaTime;
+        //    }
+        //}
+        //if (Input.GetButtonUp("Ataque"))
+        //{
+        //    Disparar((int)tiempoDeCarga);
+        //    tiempoSiguienteDisparo = Time.time + tiempoEntreDisparos;
+        //    tiempoDeCarga = 0;
+        //}
+        if(Input.GetButton("Ataque") && Time.time >= tiempoSiguienteDisparo)
         {
-            if(tiempoDeCarga <= maximoCarga)
-            {
-                tiempoDeCarga += Time.deltaTime;
-            }
-        }
-        if (Input.GetButtonUp("Ataque"))
-        {
-            Disparar((int)tiempoDeCarga);
-            tiempoDeCarga = 0;
+            Disparar();
+            tiempoSiguienteDisparo = Time.time + tiempoEntreDisparos;
         }
     }
-    private void Disparar(int tiempoCarga)
+    private void Disparar()
     {
-        Vector3 crecer = new Vector3(tiempoCarga, tiempoCarga, 0);
+        //(int tiempoCarga)
+        //Vector3 crecer = new Vector3(tiempoCarga, tiempoCarga, 0);
         GameObject fantasma = Instantiate(ataque, controladorDisparo.position, controladorDisparo.rotation);
-        fantasma.GetComponent<FantasmaScript>().AumentarDano(tiempoCarga);
-        fantasma.transform.localScale += crecer;
+        //fantasma.GetComponent<FantasmaScript>().AumentarDano(tiempoCarga);
+        //fantasma.transform.localScale += crecer;
     }
 
 }
